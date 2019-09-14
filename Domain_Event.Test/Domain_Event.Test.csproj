@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Domain_Event.Core\Domain_Event.Core.csproj" />
+      <ProjectReference Include="..\Domain_Event.Infrastructure\Domain_Event.Infrastructure.csproj" />
+    </ItemGroup>
+
+</Project>

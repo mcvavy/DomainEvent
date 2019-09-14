@@ -1,0 +1,58 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/Oyibo/RiderProjects/Domain_Event/Domain_Event.ConsoleApp/Domain_Event.ConsoleApp.csproj",
+    "projectName": "Domain_Event.ConsoleApp",
+    "projectPath": "/Users/Oyibo/RiderProjects/Domain_Event/Domain_Event.ConsoleApp/Domain_Event.ConsoleApp.csproj",
+    "outputPath": "/Users/Oyibo/RiderProjects/Domain_Event/Domain_Event.ConsoleApp/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.2"
+    ],
+    "frameworks": {
+      "netcoreapp2.2": {
+        "projectReferences": {
+          "/Users/Oyibo/RiderProjects/Domain_Event/Domain_Event.Core/Domain_Event.Core.csproj": {
+            "projectPath": "/Users/Oyibo/RiderProjects/Domain_Event/Domain_Event.Core/Domain_Event.Core.csproj"
+          },
+          "/Users/Oyibo/RiderProjects/Domain_Event/Domain_Event.Infrastructure/Domain_Event.Infrastructure.csproj": {
+            "projectPath": "/Users/Oyibo/RiderProjects/Domain_Event/Domain_Event.Infrastructure/Domain_Event.Infrastructure.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.2": {
+      "dependencies": {
+        "Microsoft.Extensions.DependencyInjection": {
+          "target": "Package",
+          "version": "[2.2.0, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        },
+        "Scrutor": {
+          "target": "Package",
+          "version": "[3.1.0, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

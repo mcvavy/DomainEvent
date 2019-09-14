@@ -1,0 +1,14 @@
+/Users/Oyibo/RiderProjects/Domain_Event/Domain_Event.Test/bin/Debug/netstandard2.0/Domain_Event.Test.deps.json
+/Users/Oyibo/RiderProjects/Domain_Event/Domain_Event.Test/bin/Debug/netstandard2.0/Domain_Event.Test.dll
+/Users/Oyibo/RiderProjects/Domain_Event/Domain_Event.Test/bin/Debug/netstandard2.0/Domain_Event.Test.pdb
+/Users/Oyibo/RiderProjects/Domain_Event/Domain_Event.Test/obj/Debug/netstandard2.0/Domain_Event.Test.csproj.CoreCompileInputs.cache
+/Users/Oyibo/RiderProjects/Domain_Event/Domain_Event.Test/obj/Debug/netstandard2.0/Domain_Event.Test.AssemblyInfoInputs.cache
+/Users/Oyibo/RiderProjects/Domain_Event/Domain_Event.Test/obj/Debug/netstandard2.0/Domain_Event.Test.AssemblyInfo.cs
+/Users/Oyibo/RiderProjects/Domain_Event/Domain_Event.Test/obj/Debug/netstandard2.0/Domain_Event.Test.dll
+/Users/Oyibo/RiderProjects/Domain_Event/Domain_Event.Test/obj/Debug/netstandard2.0/Domain_Event.Test.pdb
+/Users/Oyibo/RiderProjects/Domain_Event/Domain_Event.Test/bin/Debug/netstandard2.0/Domain_Event.Core.dll
+/Users/Oyibo/RiderProjects/Domain_Event/Domain_Event.Test/bin/Debug/netstandard2.0/Domain_Event.Infrastructure.dll
+/Users/Oyibo/RiderProjects/Domain_Event/Domain_Event.Test/bin/Debug/netstandard2.0/Domain_Event.Core.pdb
+/Users/Oyibo/RiderProjects/Domain_Event/Domain_Event.Test/bin/Debug/netstandard2.0/Domain_Event.Infrastructure.pdb
+/Users/Oyibo/RiderProjects/Domain_Event/Domain_Event.Test/obj/Debug/netstandard2.0/Domain_Event.Test.csprojAssemblyReference.cache
+/Users/Oyibo/RiderProjects/Domain_Event/Domain_Event.Test/obj/Debug/netstandard2.0/Domain_Event.Test.csproj.CopyComplete

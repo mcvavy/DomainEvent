@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0062383b-de88-47ea-b88e-e7a1333f612a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Domain_Event.Core/Entities/DomainEvent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain_Event.Core/Entities/Email.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain_Event.Core/Entities/Order.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain_Event.Core/Entities/SendEmailEvent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain_Event.Core/Entities/Student.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain_Event.Core/Entities/Title.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain_Event.Core/Events/OrderCompletedEvent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain_Event.Core/Events/StudentRegisterEvent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain_Event.Core/Interfaces/IDomainEvent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain_Event.Core/Interfaces/IDomainHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain_Event.Infrastructure/Handlers/OrderCompleteHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain_Event.Infrastructure/Handlers/SendEmailHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain_Event.Infrastructure/Handlers/StudentRegisteredHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain_Event.sln" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Domain_Event.Core/Interfaces/IDomainHandler.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+              <folding>
+                <marker date="1568413495086" expanded="true" signature="38:146" ph="{...}" />
+                <marker date="1568413495086" expanded="true" signature="102:144" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Domain_Event.ConsoleApp/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="4" column="47" lean-forward="true" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+              <folding>
+                <marker date="1568470973983" expanded="true" signature="6:175" ph="..." />
+                <marker date="1568470973983" expanded="true" signature="210:1388" ph="{...}" />
+                <marker date="1568470973983" expanded="true" signature="230:1386" ph="{...}" />
+                <marker date="1568470973983" expanded="true" signature="276:1380" ph="{...}" />
+                <marker date="1568470973983" expanded="true" signature="299:425" ph="/* Set up the DI ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Domain_Event.ConsoleApp/Domain_Event.ConsoleApp.csproj">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Domain_Event.Infrastructure/Handlers/SendEmailHandler.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="61" />
+              <folding>
+                <marker date="1568459706930" expanded="false" signature="6:83" ph="..." />
+                <marker date="1568459706930" expanded="true" signature="131:446" ph="{...}" />
+                <marker date="1568459706930" expanded="true" signature="200:444" ph="{...}" />
+                <marker date="1568459706930" expanded="true" signature="255:438" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Domain_Event.Core/Entities/Email.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+              <folding>
+                <marker date="1568459592842" expanded="true" signature="36:689" ph="{...}" />
+                <marker date="1568459592842" expanded="true" signature="61:687" ph="{...}" />
+                <marker date="1568459592842" expanded="true" signature="391:557" ph="{...}" />
+                <marker date="1568459592842" expanded="true" signature="595:681" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Domain_Event.Infrastructure/Domain_Event.Infrastructure.csproj">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Domain_Event.sln">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="445">
+              <caret line="55" selection-start-line="55" selection-end-line="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Domain_Event.Core/Entities/Order.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+              <folding>
+                <marker date="1568441413813" expanded="false" signature="6:45" ph="..." />
+                <marker date="1568441413813" expanded="true" signature="83:709" ph="{...}" />
+                <marker date="1568441413813" expanded="true" signature="108:707" ph="{...}" />
+                <marker date="1568441413813" expanded="true" signature="388:565" ph="{...}" />
+                <marker date="1568441413813" expanded="true" signature="602:701" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Domain_Event.Core/Entities/DomainEvent.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+              <folding>
+                <marker date="1568470973949" expanded="false" signature="6:83" ph="..." />
+                <marker date="1568470973949" expanded="true" signature="121:1395" ph="{...}" />
+                <marker date="1568470973949" expanded="true" signature="159:1393" ph="{...}" />
+                <marker date="1568470973949" expanded="true" signature="399:512" ph="{...}" />
+                <marker date="1568470973949" expanded="true" signature="557:606" ph="{...}" />
+                <marker date="1568470973949" expanded="true" signature="674:1387" ph="{...}" />
+                <marker date="1568470973949" expanded="true" signature="726:1076" ph="{...}" />
+                <marker date="1568470973949" expanded="true" signature="985:1062" ph="{...}" />
+                <marker date="1568470973949" expanded="true" signature="1123:1377" ph="{...}" />
+                <marker date="1568470973949" expanded="true" signature="1186:1363" ph="{...}" />
+                <marker date="1568470973949" expanded="true" signature="1249:1345" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/share/dotnet/sdk/2.2.401/Sdks/Microsoft.NET.Sdk/targets/Microsoft.NET.Sdk.targets">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="101">
+              <caret line="128" column="4" selection-start-line="128" selection-start-column="4" selection-end-line="128" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Domain_Event.Core/Entities/Order.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Domain_Event.Infrastructure/Handlers/OrderCompleteHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Domain_Event.Core/Events/OrderCompletedEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Domain_Event.Core/Entities/DomainEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Domain_Event.Core/Entities/Email.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Domain_Event.Core/Entities/SendEmailEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Domain_Event.Core/Events/StudentRegisterEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Domain_Event.Infrastructure/Handlers/SendEmailHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Domain_Event.Core/Entities/Title.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Domain_Event.Infrastructure/Handlers/StudentRegisteredHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Domain_Event.Core/Entities/Student.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Domain_Event.Core/Interfaces/IDomainHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Domain_Event.Core/Interfaces/IDomainEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Domain_Event.ConsoleApp/Program.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Domain_Event.sln" />
+        <option value="$PROJECT_DIR$/Domain_Event.Core/Class1.cs" />
+        <option value="$PROJECT_DIR$/Domain_Event.Infrastructure/Class1.cs" />
+        <option value="$PROJECT_DIR$/Domain_Event.Infrastructure.DependencyResolution/Class1.cs" />
+        <option value="$PROJECT_DIR$/Domain_Event.App/Class1.cs" />
+        <option value="$PROJECT_DIR$/Domain_Event.Test/Class1.cs" />
+        <option value="$PROJECT_DIR$/Domain_Event.Infrastructure.DependencyResolution/Domain_Event.Infrastructure.DependencyResolution.csproj" />
+        <option value="$PROJECT_DIR$/Domain_Event.App/Domain_Event.App.csproj" />
+        <option value="$PROJECT_DIR$/Domain_Event.Test/Domain_Event.Test.csproj" />
+        <option value="$PROJECT_DIR$/Domain_Event.Core/Order.cs" />
+        <option value="$PROJECT_DIR$/Domain_Event.Core/Domain_Event.Core.csproj" />
+        <option value="$PROJECT_DIR$/Domain_Event.Core/Interfaces/IDomainHandler.cs" />
+        <option value="$PROJECT_DIR$/Domain_Event.Infrastructure/Domain_Event.Infrastructure.csproj" />
+        <option value="$PROJECT_DIR$/Domain_Event.Infrastructure/Events/OrderCompletedEvent.cs" />
+        <option value="$PROJECT_DIR$/Domain_Event.Core/Events/OrderCompletedEvent.cs" />
+        <option value="$PROJECT_DIR$/Domain_Event.Core/Entities/Order.cs" />
+        <option value="$PROJECT_DIR$/Domain_Event.Core/Interfaces/IDomainEvent.cs" />
+        <option value="$PROJECT_DIR$/Domain_Event.ConsoleApp/Domain_Event.ConsoleApp.csproj" />
+        <option value="$PROJECT_DIR$/Domain_Event.Infrastructure/Handlers/OrderCompleteHandler.cs" />
+        <option value="$PROJECT_DIR$/Domain_Event.Core/Entities/Title.cs" />
+        <option value="$PROJECT_DIR$/Domain_Event.Core/Entities/Student.cs" />
+        <option value="$PROJECT_DIR$/Domain_Event.Core/Entities/StudentRegisterEvent.cs" />
+        <option value="$PROJECT_DIR$/Domain_Event.Core/Events/StudentRegisterEvent.cs" />
+        <option value="$PROJECT_DIR$/Domain_Event.Core/Events/SendEmailHandler.cs" />
+        <option value="$PROJECT_DIR$/Domain_Event.Core/Entities/Email.cs" />
+        <option value="$PROJECT_DIR$/Domain_Event.Infrastructure/Handlers/SendEmailHandler.cs" />
+        <option value="$PROJECT_DIR$/Domain_Event.Infrastructure/Handlers/StudentRegisteredHandler.cs" />
+        <option value="$PROJECT_DIR$/Domain_Event.Infrastructure/Events/DomainEvent.cs" />
+        <option value="$PROJECT_DIR$/Domain_Event.ConsoleApp/Program.cs" />
+        <option value="$PROJECT_DIR$/Domain_Event.Core/Entities/DomainEvent.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="980" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Domain_Event" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Domain_Event" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="01. Core" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Domain_Event" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="01. Core" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Domain_Event.Core" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Domain_Event" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="01. Core" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Domain_Event.Core" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Dependencies" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Domain_Event" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="01. Core" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Domain_Event.Core" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Entities" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Domain_Event" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="01. Core" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Domain_Event.Core" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Events" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Domain_Event" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="01. Core" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Domain_Event.Core" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Interfaces" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Domain_Event" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="02. Infrastructure" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Domain_Event" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="02. Infrastructure" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Domain_Event.Infrastructure" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Domain_Event" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="02. Infrastructure" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Domain_Event.Infrastructure" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Handlers" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Domain_Event" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="03. API" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Domain_Event" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="03. API" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Domain_Event.ConsoleApp" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Domain_Event" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="04. Test" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Domain_Event" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="04. Test" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Domain_Event.Test" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Domain_Event" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="04. Test" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Domain_Event.Test" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Dependencies" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Domain_Event" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="04. Test" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Domain_Event.Test" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Dependencies" type="24d0babc:SolutionExplorerModelNode" />
+              <item name=".NETStandard 2" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Domain_Event" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="04. Test" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Domain_Event.Test" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Dependencies" type="24d0babc:SolutionExplorerModelNode" />
+              <item name=".NETStandard 2" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Projects" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Project.03. API\Domain_Event.ConsoleApp">
+    <configuration name="03. API\Domain_Event.ConsoleApp" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Domain_Event.ConsoleApp/bin/Debug/netcoreapp2.2/Domain_Event.ConsoleApp.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Domain_Event.ConsoleApp" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Domain_Event.ConsoleApp/Domain_Event.ConsoleApp.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.2" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue=".NET Project.03. API\Domain_Event.ConsoleApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0062383b-de88-47ea-b88e-e7a1333f612a" name="Default Changelist" comment="" />
+      <created>1568411855768</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568411855768</updated>
+      <workItem from="1568411857707" duration="18765000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="18765000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="980" extended-state="0" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3803419" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="NuGet" weight="0.32947975" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32947975" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Build" visible="true" weight="0.32947975" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33872834" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Domain_Event.Core/Class1.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Domain_Event.Infrastructure/Class1.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Domain_Event.Infrastructure.DependencyResolution/Class1.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Domain_Event.App/Class1.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Domain_Event.Test/Class1.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Domain_Event.Test/Domain_Event.Test.csproj">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Domain_Event.Core/Entities/OrderCompletedEvent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Domain_Event.App/Domain_Event.App.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Domain_Event.Core/Interfaces/IDomainEvent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <folding>
+            <marker date="1568441949690" expanded="true" signature="38:78" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Domain_Event.Core/Domain_Event.Core.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Domain_Event.Core/Entities/Title.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1568454411137" expanded="true" signature="36:116" ph="{...}" />
+            <marker date="1568454411137" expanded="true" signature="60:114" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Domain_Event.Core/Events/OrderCompletedEvent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding>
+            <marker date="1568432061774" expanded="false" signature="6:83" ph="..." />
+            <marker date="1568432061774" expanded="true" signature="119:488" ph="{...}" />
+            <marker date="1568432061774" expanded="true" signature="173:486" ph="{...}" />
+            <marker date="1568432061774" expanded="true" signature="384:480" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Domain_Event.Core/Entities/Student.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <marker date="1568455001170" expanded="true" signature="6:81" ph="..." />
+            <marker date="1568455001170" expanded="true" signature="119:734" ph="{...}" />
+            <marker date="1568455001170" expanded="true" signature="161:732" ph="{...}" />
+            <marker date="1568455001170" expanded="true" signature="478:593" ph="{...}" />
+            <marker date="1568455001170" expanded="true" signature="632:726" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Domain_Event.Core/Events/StudentRegisterEvent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1568455001168" expanded="false" signature="6:69" ph="..." />
+            <marker date="1568455001168" expanded="true" signature="105:219" ph="{...}" />
+            <marker date="1568455001168" expanded="true" signature="160:217" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Domain_Event.Core/Entities/SendEmailEvent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <marker date="1568457531431" expanded="false" signature="6:67" ph="..." />
+            <marker date="1568457531431" expanded="true" signature="105:209" ph="{...}" />
+            <marker date="1568457531431" expanded="true" signature="154:207" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Domain_Event.Core/Events/SendEmailHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Domain_Event.Infrastructure/Handlers/OrderCompleteHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding>
+            <marker date="1568445421095" expanded="true" signature="6:81" ph="..." />
+            <marker date="1568445421095" expanded="true" signature="129:647" ph="{...}" />
+            <marker date="1568445421095" expanded="true" signature="207:645" ph="{...}" />
+            <marker date="1568445421095" expanded="true" signature="267:639" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Domain_Event.Infrastructure/Handlers/StudentRegisteredHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <marker date="1568460236387" expanded="false" signature="6:81" ph="..." />
+            <marker date="1568460236387" expanded="true" signature="129:508" ph="{...}" />
+            <marker date="1568460236387" expanded="true" signature="212:506" ph="{...}" />
+            <marker date="1568460236387" expanded="true" signature="273:500" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Domain_Event.Core/Interfaces/IDomainHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+          <folding>
+            <marker date="1568413495086" expanded="true" signature="38:146" ph="{...}" />
+            <marker date="1568413495086" expanded="true" signature="102:144" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Domain_Event.Infrastructure/Handlers/SendEmailHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="61" />
+          <folding>
+            <marker date="1568459706930" expanded="false" signature="6:83" ph="..." />
+            <marker date="1568459706930" expanded="true" signature="131:446" ph="{...}" />
+            <marker date="1568459706930" expanded="true" signature="200:444" ph="{...}" />
+            <marker date="1568459706930" expanded="true" signature="255:438" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Domain_Event.Infrastructure/DomainEvent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Domain_Event.Core/Entities/Email.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+          <folding>
+            <marker date="1568459592842" expanded="true" signature="36:689" ph="{...}" />
+            <marker date="1568459592842" expanded="true" signature="61:687" ph="{...}" />
+            <marker date="1568459592842" expanded="true" signature="391:557" ph="{...}" />
+            <marker date="1568459592842" expanded="true" signature="595:681" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Domain_Event.Infrastructure/DomainEvent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-96" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Domain_Event.Infrastructure/Domain_Event.Infrastructure.csproj">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Domain_Event.Infrastructure.DependencyResolution/Domain_Event.Infrastructure.DependencyResolution.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/share/dotnet/sdk/2.2.401/Sdks/Microsoft.NET.Sdk/targets/Microsoft.NET.Sdk.targets">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="128" column="4" selection-start-line="128" selection-start-column="4" selection-end-line="128" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Domain_Event.ConsoleApp/Domain_Event.ConsoleApp.csproj">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Domain_Event.sln">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Domain_Event.Core/Entities/Order.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+          <folding>
+            <marker date="1568441413813" expanded="false" signature="6:45" ph="..." />
+            <marker date="1568441413813" expanded="true" signature="83:709" ph="{...}" />
+            <marker date="1568441413813" expanded="true" signature="108:707" ph="{...}" />
+            <marker date="1568441413813" expanded="true" signature="388:565" ph="{...}" />
+            <marker date="1568441413813" expanded="true" signature="602:701" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Domain_Event.Core/Entities/DomainEvent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding>
+            <marker date="1568470973949" expanded="false" signature="6:83" ph="..." />
+            <marker date="1568470973949" expanded="true" signature="121:1395" ph="{...}" />
+            <marker date="1568470973949" expanded="true" signature="159:1393" ph="{...}" />
+            <marker date="1568470973949" expanded="true" signature="399:512" ph="{...}" />
+            <marker date="1568470973949" expanded="true" signature="557:606" ph="{...}" />
+            <marker date="1568470973949" expanded="true" signature="674:1387" ph="{...}" />
+            <marker date="1568470973949" expanded="true" signature="726:1076" ph="{...}" />
+            <marker date="1568470973949" expanded="true" signature="985:1062" ph="{...}" />
+            <marker date="1568470973949" expanded="true" signature="1123:1377" ph="{...}" />
+            <marker date="1568470973949" expanded="true" signature="1186:1363" ph="{...}" />
+            <marker date="1568470973949" expanded="true" signature="1249:1345" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Domain_Event.ConsoleApp/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="47" lean-forward="true" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+          <folding>
+            <marker date="1568470973983" expanded="true" signature="6:175" ph="..." />
+            <marker date="1568470973983" expanded="true" signature="210:1388" ph="{...}" />
+            <marker date="1568470973983" expanded="true" signature="230:1386" ph="{...}" />
+            <marker date="1568470973983" expanded="true" signature="276:1380" ph="{...}" />
+            <marker date="1568470973983" expanded="true" signature="299:425" ph="/* Set up the DI ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

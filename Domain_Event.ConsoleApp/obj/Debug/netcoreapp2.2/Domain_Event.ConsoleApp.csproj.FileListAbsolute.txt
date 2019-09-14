@@ -1,0 +1,16 @@
+/Users/Oyibo/RiderProjects/Domain_Event/Domain_Event.ConsoleApp/bin/Debug/netcoreapp2.2/Domain_Event.ConsoleApp.deps.json
+/Users/Oyibo/RiderProjects/Domain_Event/Domain_Event.ConsoleApp/bin/Debug/netcoreapp2.2/Domain_Event.ConsoleApp.runtimeconfig.json
+/Users/Oyibo/RiderProjects/Domain_Event/Domain_Event.ConsoleApp/bin/Debug/netcoreapp2.2/Domain_Event.ConsoleApp.runtimeconfig.dev.json
+/Users/Oyibo/RiderProjects/Domain_Event/Domain_Event.ConsoleApp/bin/Debug/netcoreapp2.2/Domain_Event.ConsoleApp.dll
+/Users/Oyibo/RiderProjects/Domain_Event/Domain_Event.ConsoleApp/bin/Debug/netcoreapp2.2/Domain_Event.ConsoleApp.pdb
+/Users/Oyibo/RiderProjects/Domain_Event/Domain_Event.ConsoleApp/bin/Debug/netcoreapp2.2/Domain_Event.Core.dll
+/Users/Oyibo/RiderProjects/Domain_Event/Domain_Event.ConsoleApp/bin/Debug/netcoreapp2.2/Domain_Event.Infrastructure.dll
+/Users/Oyibo/RiderProjects/Domain_Event/Domain_Event.ConsoleApp/bin/Debug/netcoreapp2.2/Domain_Event.Core.pdb
+/Users/Oyibo/RiderProjects/Domain_Event/Domain_Event.ConsoleApp/bin/Debug/netcoreapp2.2/Domain_Event.Infrastructure.pdb
+/Users/Oyibo/RiderProjects/Domain_Event/Domain_Event.ConsoleApp/obj/Debug/netcoreapp2.2/Domain_Event.ConsoleApp.csprojAssemblyReference.cache
+/Users/Oyibo/RiderProjects/Domain_Event/Domain_Event.ConsoleApp/obj/Debug/netcoreapp2.2/Domain_Event.ConsoleApp.csproj.CoreCompileInputs.cache
+/Users/Oyibo/RiderProjects/Domain_Event/Domain_Event.ConsoleApp/obj/Debug/netcoreapp2.2/Domain_Event.ConsoleApp.AssemblyInfoInputs.cache
+/Users/Oyibo/RiderProjects/Domain_Event/Domain_Event.ConsoleApp/obj/Debug/netcoreapp2.2/Domain_Event.ConsoleApp.AssemblyInfo.cs
+/Users/Oyibo/RiderProjects/Domain_Event/Domain_Event.ConsoleApp/obj/Debug/netcoreapp2.2/Domain_Event.ConsoleApp.csproj.CopyComplete
+/Users/Oyibo/RiderProjects/Domain_Event/Domain_Event.ConsoleApp/obj/Debug/netcoreapp2.2/Domain_Event.ConsoleApp.dll
+/Users/Oyibo/RiderProjects/Domain_Event/Domain_Event.ConsoleApp/obj/Debug/netcoreapp2.2/Domain_Event.ConsoleApp.pdb

@@ -1,0 +1,47 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/Oyibo/RiderProjects/Domain_Event/Domain_Event.Infrastructure/Domain_Event.Infrastructure.csproj",
+    "projectName": "Domain_Event.Infrastructure",
+    "projectPath": "/Users/Oyibo/RiderProjects/Domain_Event/Domain_Event.Infrastructure/Domain_Event.Infrastructure.csproj",
+    "outputPath": "/Users/Oyibo/RiderProjects/Domain_Event/Domain_Event.Infrastructure/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netstandard2.0"
+    ],
+    "frameworks": {
+      "netstandard2.0": {
+        "projectReferences": {
+          "/Users/Oyibo/RiderProjects/Domain_Event/Domain_Event.Core/Domain_Event.Core.csproj": {
+            "projectPath": "/Users/Oyibo/RiderProjects/Domain_Event/Domain_Event.Core/Domain_Event.Core.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netstandard2.0": {
+      "dependencies": {
+        "NETStandard.Library": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.0.3, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

@@ -1,0 +1,9 @@
+/Users/Oyibo/RiderProjects/Domain_Event/Domain_Event.Core/bin/Debug/netstandard2.0/Domain_Event.Core.deps.json
+/Users/Oyibo/RiderProjects/Domain_Event/Domain_Event.Core/bin/Debug/netstandard2.0/Domain_Event.Core.dll
+/Users/Oyibo/RiderProjects/Domain_Event/Domain_Event.Core/bin/Debug/netstandard2.0/Domain_Event.Core.pdb
+/Users/Oyibo/RiderProjects/Domain_Event/Domain_Event.Core/obj/Debug/netstandard2.0/Domain_Event.Core.csprojAssemblyReference.cache
+/Users/Oyibo/RiderProjects/Domain_Event/Domain_Event.Core/obj/Debug/netstandard2.0/Domain_Event.Core.csproj.CoreCompileInputs.cache
+/Users/Oyibo/RiderProjects/Domain_Event/Domain_Event.Core/obj/Debug/netstandard2.0/Domain_Event.Core.AssemblyInfoInputs.cache
+/Users/Oyibo/RiderProjects/Domain_Event/Domain_Event.Core/obj/Debug/netstandard2.0/Domain_Event.Core.AssemblyInfo.cs
+/Users/Oyibo/RiderProjects/Domain_Event/Domain_Event.Core/obj/Debug/netstandard2.0/Domain_Event.Core.dll
+/Users/Oyibo/RiderProjects/Domain_Event/Domain_Event.Core/obj/Debug/netstandard2.0/Domain_Event.Core.pdb
