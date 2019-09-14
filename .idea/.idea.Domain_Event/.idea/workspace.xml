@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0062383b-de88-47ea-b88e-e7a1333f612a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Domain_Event.Core/Entities/DomainEvent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain_Event.Core/Entities/Email.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain_Event.Core/Entities/Order.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain_Event.Core/Entities/SendEmailEvent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain_Event.Core/Entities/Student.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain_Event.Core/Entities/Title.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain_Event.Core/Events/OrderCompletedEvent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain_Event.Core/Events/StudentRegisterEvent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain_Event.Core/Interfaces/IDomainEvent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain_Event.Core/Interfaces/IDomainHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain_Event.Infrastructure/Handlers/OrderCompleteHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain_Event.Infrastructure/Handlers/SendEmailHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain_Event.Infrastructure/Handlers/StudentRegisteredHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain_Event.sln" afterDir="false" />
-    </list>
+    <list default="true" id="0062383b-de88-47ea-b88e-e7a1333f612a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +26,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Domain_Event.Test/Domain_Event.Test.csproj">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -61,7 +46,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Domain_Event.Core/Entities/Email.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="192">
@@ -206,133 +191,6 @@
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="Domain_Event" type="24d0babc:SolutionExplorerModelNode" />
             </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Domain_Event" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="01. Core" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Domain_Event" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="01. Core" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Domain_Event.Core" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Domain_Event" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="01. Core" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Domain_Event.Core" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Dependencies" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Domain_Event" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="01. Core" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Domain_Event.Core" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Entities" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Domain_Event" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="01. Core" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Domain_Event.Core" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Events" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Domain_Event" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="01. Core" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Domain_Event.Core" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Interfaces" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Domain_Event" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="02. Infrastructure" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Domain_Event" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="02. Infrastructure" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Domain_Event.Infrastructure" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Domain_Event" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="02. Infrastructure" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Domain_Event.Infrastructure" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Handlers" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Domain_Event" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="03. API" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Domain_Event" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="03. API" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Domain_Event.ConsoleApp" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Domain_Event" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="03. API" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Domain_Event.ConsoleApp" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Dependencies" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Domain_Event" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="03. API" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Domain_Event.ConsoleApp" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Dependencies" type="24d0babc:SolutionExplorerModelNode" />
-              <item name=".NETCoreApp 2.2" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Domain_Event" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="03. API" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Domain_Event.ConsoleApp" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Dependencies" type="24d0babc:SolutionExplorerModelNode" />
-              <item name=".NETCoreApp 2.2" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Projects" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Domain_Event" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="04. Test" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Domain_Event" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="04. Test" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Domain_Event.Test" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Domain_Event" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="04. Test" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Domain_Event.Test" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Dependencies" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Domain_Event" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="04. Test" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Domain_Event.Test" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Dependencies" type="24d0babc:SolutionExplorerModelNode" />
-              <item name=".NETStandard 2" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="Domain_Event" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="04. Test" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Domain_Event.Test" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Dependencies" type="24d0babc:SolutionExplorerModelNode" />
-              <item name=".NETStandard 2" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Projects" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -413,12 +271,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568411855768</updated>
-      <workItem from="1568411857707" duration="19026000" />
+      <workItem from="1568411857707" duration="19555000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19026000" />
+    <option name="totallyTimeSpent" value="19555000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -430,7 +288,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="980" extended-state="0" />
+    <frame x="5" y="23" width="1680" height="980" extended-state="0" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Image Layers" />
@@ -441,7 +299,7 @@
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Unit Tests" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32947975" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.55375725" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Build" weight="0.32947975" />
@@ -626,36 +484,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Domain_Event.Infrastructure/Handlers/SendEmailHandler.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="61" />
-          <folding>
-            <marker date="1568459706930" expanded="false" signature="6:83" ph="..." />
-            <marker date="1568459706930" expanded="true" signature="131:446" ph="{...}" />
-            <marker date="1568459706930" expanded="true" signature="200:444" ph="{...}" />
-            <marker date="1568459706930" expanded="true" signature="255:438" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Domain_Event.Infrastructure/DomainEvent.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="41">
           <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Domain_Event.Core/Entities/Email.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-          <folding>
-            <marker date="1568459592842" expanded="true" signature="36:689" ph="{...}" />
-            <marker date="1568459592842" expanded="true" signature="61:687" ph="{...}" />
-            <marker date="1568459592842" expanded="true" signature="391:557" ph="{...}" />
-            <marker date="1568459592842" expanded="true" signature="595:681" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -729,18 +561,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Domain_Event.Infrastructure/Domain_Event.Infrastructure.csproj">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Domain_Event.sln">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
+        <state relative-caret-position="461">
           <caret line="48" selection-start-line="48" selection-end-line="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Domain_Event.Infrastructure/Domain_Event.Infrastructure.csproj">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Domain_Event.Test/Domain_Event.Test.csproj">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Domain_Event.Infrastructure/Handlers/SendEmailHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="61" />
+          <folding>
+            <marker date="1568459706930" expanded="false" signature="6:83" ph="..." />
+            <marker date="1568459706930" expanded="true" signature="131:446" ph="{...}" />
+            <marker date="1568459706930" expanded="true" signature="200:444" ph="{...}" />
+            <marker date="1568459706930" expanded="true" signature="255:438" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Domain_Event.Core/Entities/Email.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+          <folding>
+            <marker date="1568459592842" expanded="true" signature="36:689" ph="{...}" />
+            <marker date="1568459592842" expanded="true" signature="61:687" ph="{...}" />
+            <marker date="1568459592842" expanded="true" signature="391:557" ph="{...}" />
+            <marker date="1568459592842" expanded="true" signature="595:681" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
