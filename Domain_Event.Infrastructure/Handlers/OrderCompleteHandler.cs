@@ -9,7 +9,11 @@ namespace Domain_Event.Infrastructure.Handlers
         public void Hanle(OrderCompletedEvent @event)
         {
             @event.Order.NumberOfItems = 100;
-            Console.WriteLine($"Order Information: \n=======================\nOrder completed on {@event.OrderCreatedDate.ToShortDateString()} at {@event.OrderCreatedDate:HH:mm:ss tt}\nID: {@event.Order.OrderId}\nNumber of order items: {@event.Order.NumberOfItems}\n____________________________________");
+            Console.WriteLine($"Order Information: \n=======================" +
+                              $"\nOrder completed on {@event.OrderCreatedDate.ToShortDateString()} " +
+                              $"at {@event.OrderCreatedDate:HH:mm:ss tt}\nID: {@event.Order.OrderId}" +
+                              $"\nNumber of order items: {@event.Order.NumberOfItems}" +
+                              $"\n____________________________________");
         }
     }
 }

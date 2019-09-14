@@ -15,7 +15,9 @@ namespace Domain_Event.ConsoleApp
             var serviceProvider = new ServiceCollection()
                 .Scan( scan => scan
                     .FromAssemblyOf<StudentRegisteredHandler>()
-                    .AddClasses(classes => classes.AssignableTo(typeof(IDomainHandler<>))).AsImplementedInterfaces()
+                    .AddClasses(classes => 
+                        classes.AssignableTo(typeof(IDomainHandler<>)))
+                    .AsImplementedInterfaces()
                 ).BuildServiceProvider();
 
             DomainEvent._serviceProvider = serviceProvider;
@@ -30,7 +32,10 @@ namespace Domain_Event.ConsoleApp
             var studentReg = new Student(Title.Mr, "John", "Murphy");
             studentReg.RegisterStudent();
             
-            var emailSent = new Email("recipient@contact.com", "sender@contact.com", "Event Message Subject", "This is a short email to say thank you!");
+            var emailSent = 
+                new Email("recipient@contact.com", 
+                    "sender@contact.com", "Event Message Subject", 
+                    "This is a short email to say thank you!");
             emailSent.RaiseEmailSent();
 
             Console.ReadKey();

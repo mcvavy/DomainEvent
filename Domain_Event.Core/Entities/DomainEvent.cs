@@ -28,7 +28,8 @@ namespace Domain_Event.Core.Entities
             if (_serviceProvider != null)
             {
                 //Fetch all handler of this type from the IoC container and invoke their handle method.
-                foreach (var handler in (IEnumerable<IDomainHandler<T>>)_serviceProvider.GetService(typeof(IEnumerable<IDomainHandler<T>>)))
+                foreach (var handler in (IEnumerable<IDomainHandler<T>>)_serviceProvider
+                    .GetService(typeof(IEnumerable<IDomainHandler<T>>)))
                 {
                     handler.Hanle(args);
                 }

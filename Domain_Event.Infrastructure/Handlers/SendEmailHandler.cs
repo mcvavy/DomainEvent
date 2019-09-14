@@ -1,5 +1,6 @@
 using System;
 using Domain_Event.Core.Entities;
+using Domain_Event.Core.Events;
 using Domain_Event.Core.Interfaces;
 
 namespace Domain_Event.Infrastructure.Handlers

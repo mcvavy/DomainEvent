@@ -1,3 +1,5 @@
+using Domain_Event.Core.Events;
+
 namespace Domain_Event.Core.Entities
 {
     public class Email
