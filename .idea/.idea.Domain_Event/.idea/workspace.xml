@@ -26,23 +26,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Domain_Event.Core/Interfaces/IDomainHandler.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-              <folding>
-                <marker date="1568413495086" expanded="true" signature="38:146" ph="{...}" />
-                <marker date="1568413495086" expanded="true" signature="102:144" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Domain_Event.ConsoleApp/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="64">
-              <caret line="4" column="47" lean-forward="true" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+              <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
               <folding>
                 <marker date="1568470973983" expanded="true" signature="6:175" ph="..." />
                 <marker date="1568470973983" expanded="true" signature="210:1388" ph="{...}" />
@@ -54,8 +41,8 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Domain_Event.ConsoleApp/Domain_Event.ConsoleApp.csproj">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Domain_Event.Test/Domain_Event.Test.csproj">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -95,19 +82,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Domain_Event.sln">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Domain_Event.Core/Entities/Order.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="219">
-              <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
               <folding>
                 <marker date="1568441413813" expanded="false" signature="6:45" ph="..." />
                 <marker date="1568441413813" expanded="true" signature="83:709" ph="{...}" />
@@ -123,7 +101,7 @@
         <entry file="file://$PROJECT_DIR$/Domain_Event.Core/Entities/DomainEvent.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
               <folding>
                 <marker date="1568470973949" expanded="false" signature="6:83" ph="..." />
                 <marker date="1568470973949" expanded="true" signature="121:1395" ph="{...}" />
@@ -182,7 +160,6 @@
         <option value="$PROJECT_DIR$/Domain_Event.Test/Class1.cs" />
         <option value="$PROJECT_DIR$/Domain_Event.Infrastructure.DependencyResolution/Domain_Event.Infrastructure.DependencyResolution.csproj" />
         <option value="$PROJECT_DIR$/Domain_Event.App/Domain_Event.App.csproj" />
-        <option value="$PROJECT_DIR$/Domain_Event.Test/Domain_Event.Test.csproj" />
         <option value="$PROJECT_DIR$/Domain_Event.Core/Order.cs" />
         <option value="$PROJECT_DIR$/Domain_Event.Core/Domain_Event.Core.csproj" />
         <option value="$PROJECT_DIR$/Domain_Event.Core/Interfaces/IDomainHandler.cs" />
@@ -204,10 +181,12 @@
         <option value="$PROJECT_DIR$/Domain_Event.Infrastructure/Events/DomainEvent.cs" />
         <option value="$PROJECT_DIR$/Domain_Event.ConsoleApp/Program.cs" />
         <option value="$PROJECT_DIR$/Domain_Event.Core/Entities/DomainEvent.cs" />
+        <option value="$PROJECT_DIR$/Domain_Event.Test/Domain_Event.Test.csproj" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="5" />
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="980" />
@@ -294,6 +273,30 @@
               <item name="Domain_Event" type="24d0babc:SolutionExplorerModelNode" />
               <item name="03. API" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Domain_Event.ConsoleApp" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Domain_Event" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="03. API" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Domain_Event.ConsoleApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Dependencies" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Domain_Event" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="03. API" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Domain_Event.ConsoleApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Dependencies" type="24d0babc:SolutionExplorerModelNode" />
+              <item name=".NETCoreApp 2.2" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Domain_Event" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="03. API" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Domain_Event.ConsoleApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Dependencies" type="24d0babc:SolutionExplorerModelNode" />
+              <item name=".NETCoreApp 2.2" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Projects" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
@@ -410,12 +413,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568411855768</updated>
-      <workItem from="1568411857707" duration="18765000" />
+      <workItem from="1568411857707" duration="19026000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18765000" />
+    <option name="totallyTimeSpent" value="19026000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -432,16 +435,16 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Image Layers" />
       <window_info id="Capture Tool" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3803419" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3803419" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="NuGet" weight="0.32947975" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32947975" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32947975" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Build" visible="true" weight="0.32947975" />
+      <window_info anchor="bottom" id="Build" weight="0.32947975" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.33872834" />
@@ -486,9 +489,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Domain_Event.Test/Class1.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Domain_Event.Test/Domain_Event.Test.csproj">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Domain_Event.Core/Entities/OrderCompletedEvent.cs">
@@ -664,9 +664,6 @@
         <state relative-caret-position="-96" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Domain_Event.Infrastructure/Domain_Event.Infrastructure.csproj">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Domain_Event.Infrastructure.DependencyResolution/Domain_Event.Infrastructure.DependencyResolution.csproj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -684,17 +681,10 @@
     <entry file="file://$PROJECT_DIR$/Domain_Event.ConsoleApp/Domain_Event.ConsoleApp.csproj">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Domain_Event.sln">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Domain_Event.Core/Entities/Order.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
-          <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
           <folding>
             <marker date="1568441413813" expanded="false" signature="6:45" ph="..." />
             <marker date="1568441413813" expanded="true" signature="83:709" ph="{...}" />
@@ -708,7 +698,7 @@
     <entry file="file://$PROJECT_DIR$/Domain_Event.Core/Entities/DomainEvent.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
           <folding>
             <marker date="1568470973949" expanded="false" signature="6:83" ph="..." />
             <marker date="1568470973949" expanded="true" signature="121:1395" ph="{...}" />
@@ -728,7 +718,7 @@
     <entry file="file://$PROJECT_DIR$/Domain_Event.ConsoleApp/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
-          <caret line="4" column="47" lean-forward="true" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
           <folding>
             <marker date="1568470973983" expanded="true" signature="6:175" ph="..." />
             <marker date="1568470973983" expanded="true" signature="210:1388" ph="{...}" />
@@ -738,6 +728,19 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Domain_Event.sln">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Domain_Event.Infrastructure/Domain_Event.Infrastructure.csproj">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Domain_Event.Test/Domain_Event.Test.csproj">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
